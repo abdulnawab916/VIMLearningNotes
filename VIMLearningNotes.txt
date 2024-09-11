@@ -1,0 +1,76 @@
+Abdul's Notes for Learning VIM:
+What is VIM?
+	-
+Why is learning VIM important?
+	- 
+Resource:
+	<https://www.youtube.com/watch?v=IiwGbcd8S7I>
+- open up terminal for Windows
+- WSL 
+- Key bindings are useful in other places too
+- mouse is useless
+
+Opening up a file with VIM:
+	vim <filename>
+
+Exiting vim:
+	:q - gets you out of VIM
+	:wq - saves, and then gets you out
+	:q! - quits w/out saving
+	:w - you would click this if you just wanted to 	save what you wrote to the file
+
+The modal system:
+Command Mode: J goes down, K goes up
+What do 'h' and 'l' do?
+
+If you want to type something, then you would go to insert mode. (Click 'i')
+
+And then after you type something, you would then click 'esc'
+
+
+To delete an entire line, you would click 'dd'
+This gets rid of the entire line!
+
+Going all the way down to the end of the file
+'G'
+
+Going back to the top of the file 
+'gg'
+
+
+If you want to go up or down across blocks of code, then you would click(or hold) the curly braces. 
+
+'{' or '}'
+
+Skipping a bunch of lines
+You can use the hjkl keys and skip a number of lines
+if you want to by putting the number in front of the character.
+
+Example:
+<number of chars> h | j | k | l
+Will move you number of chars in that direction
+
+Deleting a line, 'dd', and then if you want to undo that delete, then you would click 'u'
+
+// what if I want to redo something?
+Redo command:
+	Ctrl + R
+Undo:
+	'u'
+Copy and pasting lines of code:
+	- 'yy' to copy the line
+	- 'p' or 'P' to paste the code either on top or below
+	- dd'ing a line automatically deletes it and then copies it to our clipboard
+
+Deleting a certain number of lines of code:
+
+<# of lines of code you want to delete> + 'dd'
+
+The next important Mode:
+Visual Mode:
+	- This kinda allows you to highlight code and pick it
+	- Capital V and then use the hjkl keys to navigate around to 
+		edit your code and whatnot
+	- 
+
+
