@@ -70,7 +70,10 @@ The next important Mode:
 Visual Mode:
 	- This kinda allows you to highlight code and pick it
 	- Capital V and then use the hjkl keys to navigate around to 
-		edit your code and whatnot
-	- 
+		edit your code and whatnot.
+	- I think of this like a highlighter type of tool;
+	- to exit out of Visual Mode, you would still press the 
+		'esc' Key
+	-  
 
 
