@@ -25,7 +25,7 @@ What do 'h' and 'l' do?
 
 If you want to type something, then you would go to insert mode. (Click 'i')
 
-And then after you type something, you would then click 'esc'
+A<adding something in>nd then after you type something, you would then click 'esc'
 
 
 To delete an entire line, you would click 'dd'
@@ -64,7 +64,8 @@ Copy and pasting lines of code:
 
 Deleting a certain number of lines of code:
 
-<# of lines of code you want to delete> + 'dd'
+<# of lines of code y
+<You want to delete> + 'dd'
 
 The next important Mode:
 Visual Mode:
@@ -74,6 +75,87 @@ Visual Mode:
 	- I think of this like a highlighter type of tool;
 	- to exit out of Visual Mode, you would still press the 
 		'esc' Key
-	-  
+- You can delete selected text and whatnot
+- Ctrl R is redo
 
+INSERTING A NEW LINE:
+- if you want to insert a new line, then what you do 
+- is you click 'o' and then it places you in that 
+- new line.
+- in this new line, you will be in insert mode (i mode)
+Lets try it out: Insert a line below"
+something
+<Inserted something here>
+somethingelse
+Does it work?
+yes
 
+Capital O and Lowercase O differentiate
+- there are a 10000 different ways to do something in VIM
+- For example, if you wanted to delete an entire block of code
+- You could click 'd' and then you can click '{'
+- ^^ This would then delete the entire block of code
+
+What is the best way to delete?
+- 
+How would one navigate horizontally?
+- Going forward per word?
+'w'
+- Going backwards per word?
+ 'b'
+
+ - Going to any line number:
+ colon (:) + <line #> 
+ This is how you get to any line number that you want
+ to go to
+
+Going to the beginning of a line:
+- You would click the '^'
+- this takes you to the first word basically 
+
+If you want to skip through more words and such
+- All you do is capitalize the W and the B and this will 
+skip punctuation
+
+if you want to go to a certain character or such
+then you type of the character you type before + t
+
+if you want to get to two connecting characters, you would
+type in the % sign
+
+Changing a word + Deleting a word:
+click 'c' to change a word, and then 'dw' to delete a word
+
+If you are at a certain character in the line, and you want to delete the 
+rest of the line,  you would click capital "D"
+
+^Everything to the right of your cursor^
+
+Deleting to a certain letter/character:
+'d' + 't' + <Character name>
+this is how you get to that character
+you could also do this by changing the 'd' to a 'c'
+'c' + 't' + <Character name> (This would keep you in a certain mode)
+				Geting to the next instance of a character:
+you would click the character and then t, and then click ';'
+This is how you would keep checking what the rest of the characters there 
+are in the line
+To get your cursor to be in the center of the page when you are typing,.
+then you would click 'z'. This will bring you to the center
+
+If you want to move over one cursor, and then be in insert mode
+you would click 'a'. This would get you to the spot you want to edit
+
+Capital 'A' gets you adding something at the end of the line
+This is what you would click to get to the end of the line
+
+Getting rid of one character only - 'x'
+Swapping cases: clicking '~' swaps the casing of it
+
+The Period Command:
+The period command (.) simply does the last thing that you did
+something
+something
+Repeated!
+ 
+Replacing a character: 'r' and then type the char you want there!

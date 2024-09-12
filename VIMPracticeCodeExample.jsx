@@ -68,6 +68,7 @@ export default class TodoList extends React.Component {
     if (this.state.todoToShow === "all") {
       todos = this.state.todos;
     } else if (this.state.todoToShow === "active") {
+      // some comments and stuff
       todos = this.state.todos.filter(todo => !todo.complete);
     } else if (this.state.todoToShow === "complete") {
       todos = this.state.todos.filter(todo => todo.complete);
@@ -122,3 +123,4 @@ export default class TodoList extends React.Component {
     );
   }
 }
+// End of file
